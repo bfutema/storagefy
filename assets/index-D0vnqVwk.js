@@ -117,7 +117,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   right: 0;
   width: 400px;
   max-width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-color: ${({theme:a})=>a.colors.surface};
   border-left: 1px solid ${({theme:a})=>a.colors.border};
   box-shadow: -4px 0 24px rgba(0, 0, 0, 0.2);
@@ -336,7 +336,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   right: 0;
   width: 400px;
   max-width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-color: ${({theme:a})=>a.colors.surface};
   border-left: 1px solid ${({theme:a})=>a.colors.border};
   box-shadow: -4px 0 24px rgba(0, 0, 0, 0.2);
@@ -670,8 +670,8 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   }
 `;function H6(){const{logout:a}=Ef(),c=rc(),o=()=>{a(),c("/login",{replace:!0})};return y.jsxs(w6,{onClick:o,type:"button","aria-label":"Sair",children:[y.jsx(py,{size:16}),"Sair"]})}const N6=B.main`
   display: flex;
-  height: 100vh;
-  min-height: 100vh;
+  height: 100dvh;
+  min-height: 100dvh;
   overflow: hidden;
   background-color: ${({theme:a})=>a.colors.background};
   transition: background-color 0.3s ease;
@@ -732,7 +732,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   left: 0;
   width: 280px;
   max-width: 85vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: ${({theme:a})=>a.colors.sidebar};
   border-right: 1px solid ${({theme:a})=>a.colors.border};
   z-index: 1001;
@@ -942,7 +942,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   font-size: ${({theme:a})=>a.fontSize.md};
   color: ${({theme:a})=>a.colors.textSecondary};
 `;function p3(){return y.jsx(Cf,{title:"Início",children:y.jsxs(d3,{children:[y.jsx(h3,{children:"Bem-vindo ao Storagefy"}),y.jsx(m3,{children:"Use o menu lateral para navegar até o Explorador de Arquivos."})]})})}const g3=B.main`
-  min-height: 100vh;
+  min-height: 100dvh;
   height: 100%;
   display: flex;
   align-items: center;
