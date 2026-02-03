@@ -1,0 +1,1 @@
+export { FloatingUploadButton } from './FloatingUploadButton';

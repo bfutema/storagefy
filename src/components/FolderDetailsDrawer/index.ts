@@ -1,0 +1,1 @@
+export { FolderDetailsDrawer } from './FolderDetailsDrawer';
